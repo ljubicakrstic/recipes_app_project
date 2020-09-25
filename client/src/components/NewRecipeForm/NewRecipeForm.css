@@ -1,0 +1,19 @@
+.instructions-textarea{
+    min-height: 200px;
+}
+
+.checkbox-label{
+    margin-right: 20px;
+}
+
+.new-recipe-wrapper{
+    padding: 5% 15%;
+    background-image: url('/background.jpeg');
+}
+
+
+.new-recipe-row{
+    background-color: rgba(180, 185, 180, 0.8);
+    padding-bottom: 30px;
+    border-radius: 1%;
+}

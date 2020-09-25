@@ -1,0 +1,5 @@
+.registration-wrapper{
+    padding: 5% 30%;
+    background-image: url('/spoons.jpeg');
+    height: calc(100vh - 69px);
+}
