@@ -9,13 +9,22 @@
 5. express 4.17.1
 6. node 12.18.2
 
-### Instalacija:
+
+### Instalacija projekata:
 
 Prethodno potrebno instalirati NodeJS (v12.14.0 ili novija) i nodemon (globalno)
 
 1. Klonirati repozitorijum
 2. npm install u client folderu
 3. npm install u root-u
+
+### Instalacija baze:
+
+Potrebno je instalirati WAMP, LAMP ili XAMP server. 
+
+Skriptu pod nazivom database.sql iz ovog repozitorijuma otvoriti u MySQL Workbenchu, ili drugom alatu za rad sa bazama podataka. Izvršiti skriptu (execute).
+
+U package.json fajlu na serverskoj strani (u rootu) promeniti username i password, u skladu sa lokalnim podešavanjima. 
 
 ### Pokretanje projekta:
 
@@ -31,4 +40,4 @@ Prethodno potrebno instalirati NodeJS (v12.14.0 ili novija) i nodemon (globalno)
 
     - Mogućnost čitanja i pretraživanja recepata po više kategorija
     - Mogućnost logovanja i registracije novih korisnika
-    - Mogućnost objavljivanja recepata (samo za ulogovane korisnike)
+    - Mogućnost dodavanja novih recepata (samo za ulogovane korisnike)
